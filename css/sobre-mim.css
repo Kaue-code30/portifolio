@@ -66,5 +66,8 @@
     justify-content: center;
 }
 .skills__icon i{
-    font-size: 2.5rem;
+    font-size: 4rem;
+}
+.skills__icon span{
+    font-size: 1.5rem;
 }
