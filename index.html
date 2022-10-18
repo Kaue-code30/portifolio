@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio - Kauê Lima</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/logo.css">
+    <link rel="stylesheet" href="./css/menu.css">,
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./img/Ellipse 1 (2).png">
+    <link rel="stylesheet" href="./css/sobre-mim.css">
+    
 
 
 
@@ -21,14 +25,106 @@
 
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="logo">
+            kauelima
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <i>
+                        <a href="#home">Inicio</a>
+                    </i>
+                </li>
+                <li>
+                    <i>
+                        <a href="#sobre-mim">Sobre mim</a>
+                    </i>
+                </li>
+                <li>
+                    <i>
+                        <a href="#projetos">Projetos</a>
+                    </i>
+                </li>
+                <li>
+                    <i>
+                        <a href="#contato">Contato</a>
+                    </i>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
 
-    <main></main>
+
+    <main>
+
+        <section class="home" id="home">
+            <img src="./css/img/Ellipse 1 (2).png" alt="" class="home__foto">
+            <div>
+                <span class="home__text">Olá meu nome é</span>
+                <h1 class="home__name">Kauê Lima</h1>
+                <span class="home__text">E sou desenvolvedor Front-end</span>
+            </div>
+        </section>
+
+        <section class="sobre-mim" id="sobre-mim">
+
+            <h2 class="section-title">Sobre mim</h2>
+
+            <div class="description">
+                <h3 class="descricao__title">
+                   Quem sou eu? 
+                </h3>
+                 <p class="description__text">
+                        Sou iniciante na área de criação e manutenção de sites, tenho conhecimento de prototipação e designer sempre pensando na experiência do usuário.
+                        Sou apaixonado pelo mundo digital e principalmente desenvolvimento, sempre procurando inspirações nos meus colegas de trabalho e no mundo que me rodeia.
+                </p>
+            </div>
+            <div class="skills">
+                <h3 class="skills__title">Skills</h3>
+                <div class="skills__icons">
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>JS</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>GITHUB</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+
+        </section>
+
+        <section class="contato" id="contato">
+
+        </section>
+
+    </main>
 
 
     
-    <footer></footer>
-    
+    <footer>footer</footer>
+
 </body>
 </html>
