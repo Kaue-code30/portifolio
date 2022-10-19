@@ -44,12 +44,12 @@ section{
 }
 
 .projetos{
-    background-color: red;
-    width: 100%;
+    background-color: #000000;
+    
 }
 .contato{
-    background-color: seagreen;
-    width: 100%;
+    background-color:  #000000;
+    
 }
 footer{
     grid-area: content;

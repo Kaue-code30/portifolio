@@ -1,0 +1,20 @@
+.projetos{
+    display: flex;
+    flex-direction: column;
+}
+.projetos-image{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}

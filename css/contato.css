@@ -1,0 +1,53 @@
+.contato{
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "contato redes";
+    max-width: 1200px;
+    width: 100%;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+}
+.sub-title-contato{
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+.sub-title-redes{
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+.section-title-contato{
+    grid-area: title;
+    font-size: clamp(2rem,18vw,14rem);
+    font-weight: 700;
+    text-align: center;
+    background:linear-gradient(#ffffff, #000);
+    background-clip: text;
+    -webkit-background-clip:text ;
+    color:transparent;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.grupos{
+    display: flex;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
