@@ -25,7 +25,8 @@ header{
     width: 100%;
     margin-top: 48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20%;
     align-items: center;
     place-self: start center;
 }
